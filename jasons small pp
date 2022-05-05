@@ -4,6 +4,8 @@ if not game:IsLoaded() then
     game.Loaded:Wait()
 end 
 
+wait(2)
+
 local Client = game:GetService("Players").LocalPlayer
 local foundAnything = ""
 
